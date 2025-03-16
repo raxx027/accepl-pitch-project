@@ -91,6 +91,26 @@ const FinancialTable = () => {
           </p>
         </div>
         
+        <div className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-400 mb-12 bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200 max-w-4xl mx-auto">
+          <div className="p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="bg-gradient-to-br from-accepl-teal-light/20 to-accepl-teal/10 p-4 rounded-lg border border-accepl-teal/20">
+              <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Internal Rate of Return (IRR)</h3>
+              <p className="text-3xl font-bold text-accepl-teal">27.51%</p>
+              <p className="text-xs text-gray-500 mt-1">Exceptional return rate</p>
+            </div>
+            <div className="bg-gradient-to-br from-accepl-amber-light/20 to-accepl-amber/10 p-4 rounded-lg border border-accepl-amber/20">
+              <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Return on Investment (ROI)</h3>
+              <p className="text-3xl font-bold text-accepl-amber">3257.14%</p>
+              <p className="text-xs text-gray-500 mt-1">Multiplied investment value</p>
+            </div>
+            <div className="bg-gradient-to-br from-gray-100 to-gray-50 p-4 rounded-lg border border-gray-200">
+              <h3 className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-1">Net Present Value (NPV)</h3>
+              <p className="text-3xl font-bold text-gray-900">₹13,423.43 Cr</p>
+              <p className="text-xs text-gray-500 mt-1">At 9% discount rate</p>
+            </div>
+          </div>
+        </div>
+        
         <div className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-400 max-w-6xl mx-auto">
           <div className="bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200">
             <div className="p-6 flex flex-col sm:flex-row justify-between items-center border-b border-gray-200">
