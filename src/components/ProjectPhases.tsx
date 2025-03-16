@@ -4,7 +4,6 @@ import { useEffect, useRef } from 'react';
 const phases = [
   {
     number: "Phase 1",
-    years: "Years 1-5",
     title: "Initial Setup & Market Entry",
     steel: "Production of TMT bars, beams, channels, angles, and ERW pipes.",
     solar: "Production of mono PERC solar cells and DCR-compliant solar modules.",
@@ -13,7 +12,6 @@ const phases = [
   },
   {
     number: "Phase 2",
-    years: "Years 6-10",
     title: "Expansion & Diversification",
     steel: "Add galvanized steel structures, pre-engineered buildings (PEB), and coated steel.",
     solar: "Introduce bifacial panels and lithium-ion battery integration.",
@@ -22,7 +20,6 @@ const phases = [
   },
   {
     number: "Phase 3",
-    years: "Years 11-15",
     title: "Scaling for International Markets",
     steel: "Add high-grade alloy steel for automotive & defense industries.",
     solar: "Develop HJT (Heterojunction Technology) solar cells for higher efficiency.",
@@ -31,7 +28,6 @@ const phases = [
   },
   {
     number: "Phase 4",
-    years: "Years 16-20",
     title: "AI Integration & Smart Factory Development",
     steel: "AI-driven steel production and trials for hydrogen-based steel manufacturing.",
     solar: "AI-integrated smart solar grids and perovskite tandem solar cell R&D.",
@@ -40,7 +36,6 @@ const phases = [
   },
   {
     number: "Phase 5",
-    years: "Years 21-25",
     title: "Green Manufacturing & Global Expansion",
     steel: "Development of green steel technology using hydrogen-based manufacturing.",
     solar: "Mass production of ultra-high-efficiency solar panels and battery solutions.",
@@ -109,7 +104,6 @@ const ProjectPhases = () => {
                     {phase.number}
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900">{phase.title}</h3>
-                  <p className="text-accepl-amber font-medium mt-1">{phase.years}</p>
                 </div>
                 
                 <div className="md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
