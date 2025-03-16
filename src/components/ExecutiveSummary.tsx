@@ -112,7 +112,7 @@ const ExecutiveSummary = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accepl-amber mt-1 flex-shrink-0">
                       <polyline points="20 6 9 17 4 12"/>
                     </svg>
-                    <span>Break-even: Year 5</span>
+                    <span>Break-even: Year 7</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accepl-amber mt-1 flex-shrink-0">

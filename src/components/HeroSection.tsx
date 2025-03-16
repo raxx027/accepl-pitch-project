@@ -84,7 +84,7 @@ const HeroSection = () => {
               <p className="text-sm text-gray-600 mt-1">Investor Equity</p>
             </div>
             <div>
-              <p className="text-3xl font-bold text-accepl-teal">Year 5</p>
+              <p className="text-3xl font-bold text-accepl-teal">Year 7</p>
               <p className="text-sm text-gray-600 mt-1">Break-even</p>
             </div>
             <div>
