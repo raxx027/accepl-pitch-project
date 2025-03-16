@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 
 const ExecutiveSummary = () => {
@@ -118,7 +117,7 @@ const ExecutiveSummary = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accepl-amber mt-1 flex-shrink-0">
                       <polyline points="20 6 9 17 4 12"/>
                     </svg>
-                    <span>After the 5th year, the company reinvests its share of profit while keeping a 10% safety net.</span>
+                    <span>After the 5th year, the company reinvests its share of profit while keeping a 11% safety net.</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-accepl-amber mt-1 flex-shrink-0">
