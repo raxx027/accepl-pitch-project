@@ -1,5 +1,5 @@
-
 import { useEffect, useRef, useState } from 'react';
+import ProfitSharingModel from './ProfitSharingModel';
 
 const financialData = [
   { year: 1, revenue: 1800, profitBeforeTax: 100, tax: 25, profitAfterTax: 75, investorProfit: 75, investorCumulative: 75, companyProfit: 0, reinvestment: 0, retained: 0 },
@@ -235,6 +235,8 @@ const FinancialTable = () => {
             </div>
           </div>
           
+          <ProfitSharingModel />
+          
           <div className="animate-on-scroll opacity-0 translate-y-10 transition-all duration-700 delay-500 mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
               <div className="flex items-center mb-2">
@@ -246,7 +248,7 @@ const FinancialTable = () => {
                 <h3 className="font-medium text-gray-900">Year 5 Revenue</h3>
               </div>
               <p className="text-2xl font-bold text-accepl-teal">₹7,000 Cr</p>
-              <p className="text-sm text-gray-500 mt-1">Break-even point reached</p>
+              <p className="text-sm text-gray-500 mt-1">End of initial recovery phase</p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-200">
@@ -298,3 +300,4 @@ const FinancialTable = () => {
 };
 
 export default FinancialTable;
+
