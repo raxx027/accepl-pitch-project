@@ -1,12 +1,44 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Header from "@/components/Header";
+import HeroSection from "@/components/HeroSection";
+import ExecutiveSummary from "@/components/ExecutiveSummary";
+import ProjectPhases from "@/components/ProjectPhases";
+import FinancialTable from "@/components/FinancialTable";
+import Conclusion from "@/components/Conclusion";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-white">
+      <Header />
+      <main>
+        <HeroSection />
+        <section id="executive-summary" className="py-20">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <ExecutiveSummary />
+          </div>
+        </section>
+        <section id="project-phases" className="py-20 bg-gray-50">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <ProjectPhases />
+          </div>
+        </section>
+        <section id="financial-breakdown" className="py-20">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl font-bold text-center mb-16">3. Detailed 25-Year Financial Breakdown</h2>
+            <FinancialTable />
+          </div>
+        </section>
+        <section id="conclusion" className="py-20 bg-gray-50">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <Conclusion />
+          </div>
+        </section>
+      </main>
+      <footer className="bg-gray-800 text-white py-8">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-sm">© {new Date().getFullYear()} Accredian Engineering Pvt Ltd. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 };
